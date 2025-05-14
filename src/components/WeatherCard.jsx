@@ -7,8 +7,8 @@ const WeatherCard = () => {
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const ApiKey = "79e4206976984d2318e02b3e19f33a83";
-  const ApiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
+  const ApiKey = import.meta.env.VITE_API_KEY;
+  const ApiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
   const checkWeather = async () => {
     setLoading(true);

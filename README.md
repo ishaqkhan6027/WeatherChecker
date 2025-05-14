@@ -1,6 +1,6 @@
 the given project
 Weather App - React Vite with Tailwind CSS
-[Weather App Screenshot](public/screenshot/weather.png.)
+[Weather App Screenshot](public/screenshot/weather.png)
 
 Overview
 A responsive weather application built with React, Vite, and Tailwind CSS that displays current weather conditions for any city worldwide. This is a conversion of an original vanilla JavaScript project to a modern React implementation.
